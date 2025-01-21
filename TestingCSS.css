@@ -57,7 +57,7 @@
     padding: 3%;
     border: 5px;
     border-style: solid;        
-    margin: 20% 10%;
+    margin: 5% 10%;
 }
 
 #textData::first-line{
@@ -182,3 +182,25 @@ li a:hover{
 #dropLink:hover #dropBtn{
     background-color: #3e8e41;
 }
+
+
+/* HTML Forms */
+
+#UName{
+    padding: 5px;
+    margin-left: 0%;
+ }
+ #UNameText{
+     padding: 5px;
+     margin-left: 10%;
+ }
+ 
+ #Age{
+     margin-top: 1%;
+     padding: 5px;
+ }
+ 
+ #AgeText{
+     margin-left: 10%;
+ }
+ 
