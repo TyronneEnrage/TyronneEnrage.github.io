@@ -58,14 +58,32 @@
         </div>
 
         <!--HTML Forms-->
-        <div id="BForm">
             <form>
                 <label for="UName" id="UNameText">Username:</label>
                 <input type="text" id="UName" name="UName"><br>
                 <label for="Age" id="AgeText">Age:</label>
                 <input type="text" id="Age" name="Age"><br>
             </form>
-        </div>
+
+
+            <form id="radioBox">
+                <input type="radio" id="maleOpt" name="maleOpt" value="Male">
+                <label for="maleOpt" id="male">male</label>
+                <input type="radio" id="femaleOpt" name="femaleOpt" value="Female">
+                <label for="femaleOpt" id="female">female</label>
+                <input type="radio" id="otherOpt" name="otherOpt" value="Other">
+                <label for="otherOpt" id="other">other</label>
+            </form>
+
+            <form id="checkBox">
+                <input type="checkbox" id="mastodon" name="mastodon" value="Mastodon">
+                <label for="mastodon">Mastodon</label>
+                <input type="checkbox" id="reddit" name="reddit" value="reddit">
+                <label for="reddit">Reddit</label>
+                <input type="checkbox" id="youtube" name="youtube" value="Youtube">
+                <label for="youtube">Youtube</label>
+            </form>
+
 
     </body>
 </html>

@@ -204,3 +204,14 @@ li a:hover{
      margin-left: 10%;
  }
  
+
+
+#maleOpt{
+    margin: 3% 3% 0% 10%;
+}
+
+#checkBox{
+    margin: 3% 3% 0% 10%;
+    display: block;
+}
+
