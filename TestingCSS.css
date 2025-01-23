@@ -41,7 +41,7 @@
     outline-width: 10px;
     outline-color: darkseagreen;
     outline-offset: 5px;
-    margin: 30px;
+    margin: 2% 2% 5% 10%;
 }
 
 #sent:hover{
@@ -57,7 +57,7 @@
     padding: 3%;
     border: 5px;
     border-style: solid;        
-    margin: 5% 10%;
+    margin: 5% 20% 5%;
 }
 
 #textData::first-line{
@@ -207,7 +207,7 @@ li a:hover{
 
 
 #maleOpt{
-    margin: 3% 3% 0% 10%;
+    margin: 3% 0% 0% 10%;
 }
 
 #checkBox{
