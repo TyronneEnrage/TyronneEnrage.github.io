@@ -41,12 +41,12 @@
 
 .columns.main{
     width: 50%;
-    margin: 0% 2% 1% 10%
+    margin: 0% 2% 1% 10%;
 }
 
 .columns.side{
     width: 25%;
-    margin: 0% 2% 1% 3%
+    margin: 0% 2% 1% 3%;
 }
 
 #rows::after{
@@ -74,7 +74,7 @@
 /*Footer*/
 
 #footer{
-    background-color: #1a395c;
+    background-image: linear-gradient(to bottom right, #0038A8, #C60270);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color:#f6a346;
@@ -83,4 +83,5 @@
     position: fixed;
     bottom: 0;
     width: 85%;
+    
 }
