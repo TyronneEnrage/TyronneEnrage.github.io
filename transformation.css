@@ -1,0 +1,58 @@
+#translate {
+    width: 300px;
+    height: 100px;
+    transform: translate(500px, 1150px);
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+#rotate{
+    width: 200px;
+    height: 100px;
+    transform: rotate(90deg);
+    background-color: cadetblue;
+
+}
+
+#scaleSmall{
+    width: 200px;
+    height: 100px;
+    transform: scale(2, 3);
+    background-color: coral;
+    margin-left: 30%;
+}
+
+#skewX{
+    width: 200px;
+    height: 100px;
+    transform: skewX(-50deg);
+    background-color: aqua;
+}
+
+#skewY{
+    width: 200px;
+    height: 100px;
+    transform: skewY(50deg);
+    background-color: darkmagenta;
+}
+
+#rotateX{
+    width: 200px;
+    height: 100px;
+    transform: rotateX(150deg);
+    background-color: aquamarine;
+}
+
+#rotateY{
+    width: 200px;
+    height: 100px;
+    transform: rotateY(150deg);
+    background-color: darkgrey;
+}
+
+#rotateZ{
+    width: 200px;
+    height: 100px;
+    transform: rotateZ(90deg);
+    background-color: antiquewhite;
+}
