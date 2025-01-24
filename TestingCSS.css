@@ -56,7 +56,8 @@
     text-transform: capitalize;
     padding: 3%;
     border: 5px;
-    border-style: solid;        
+    border-style: solid;
+    border-radius: 50px 0px 50px 0px;        
     margin: 5% 20% 5%;
 }
 
@@ -188,6 +189,9 @@ li a:hover{
 
 #UName{
     padding: 5px;
+    border-radius: 10px 0px 10px 0px;
+    padding: 1% 1%;
+    width: 30%;
     margin-left: 0%;
  }
  #UNameText{
@@ -198,6 +202,9 @@ li a:hover{
  #Age{
      margin-top: 1%;
      padding: 5px;
+     border-radius: 10px 0px 10px 0px;
+     padding: 1% 1%;
+     width: 30%;
  }
  
  #AgeText{
