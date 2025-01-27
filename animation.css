@@ -1,0 +1,105 @@
+#basicAnim{
+    width: 250px;
+    height: 250px;
+    transform: translate(150px, 150px);
+    background-color: blue;
+    position: relative;
+    animation-name: box;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes box {
+    from {background-color:  blue; left: 100px;}
+    to {background-color: purple; top: 100px;}
+}
+
+#gradualAnim{
+    width: 250px;
+    height: 250px;
+    transform: translate(250px, 250px);
+    background-color: #0038A8;
+    animation: colorful;
+    animation-duration: 3s;
+}
+
+@keyframes colorful {
+    0% {background-color: #0038A8;}
+    12.5% {background-color: #3745A2;}
+    25% {background-color: #63479A;}
+    37.5% {background-color: #7F4B98;}
+    50% {background-color: #9B4F96;}
+    62.5% {background-color: #AC4A88;}
+    75% {background-color: #C1357C;}
+    87% {background-color: #C60270;}
+}
+
+#moving{
+    width: 150px;
+    height: 150px;
+    transform: translate(50px, 0px);
+    position: relative;
+    background-color: blue;
+    animation-name: movingBox;
+    animation-duration: 3s;
+}
+
+@keyframes movingBox {
+    0% {background-color: #0038A8; left: 0px; top: 0px ;}
+    25% {background-color: #63479A; left: 100px; top: 0px;}
+    50% {background-color: #9B4F96; left: 100px; top: 100px;}
+    75% {background-color: #C1357C; left: 0px; top: 100px;}
+    100% {background-color: #C60270; left: 0px; top: 0px;}
+}
+
+
+
+/*best implementation of animation*/
+#iteration{
+    width: 150px;
+    height: 150px;
+    transform: translate(50px, 0px);
+    background-color: #0038A8;
+    position: relative;
+    animation-name: iterationBox;
+    animation-duration: 3s;
+    /*values for iteration is either: int or infinite*/
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes iterationBox {
+    0% {background-color: #0038A8; transform: rotate(-90deg); left: 0px; top: 0px;}
+    12.5% {background-color: #3745A2;}
+    25% {background-color: #63479A; left: 500px; top: 0px}
+    37.5% {background-color: #7F4B98;}
+    50% {background-color: #9B4F96;}
+    62.5% {background-color: #AC4A88; left: 250px; top: 0px}
+    75% {background-color: #C1357C;}
+    87% {background-color: #C60270;}
+    100% {background-color: #0038A8; transform: rotate(90deg); left: 0px;}
+}
+
+
+#directions{
+    width: 150px;
+    height: 150px;
+    transform: translate(350px, 0px);
+    background-color: #0038A8;
+    animation-name: directionBox;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+}
+
+@keyframes directionBox {
+    0% {background-color: #0038A8;}
+    12.5% {background-color: #3745A2;}
+    25% {background-color: #63479A;}
+    37.5% {background-color: #7F4B98;}
+    50% {background-color: #9B4F96;}
+    62.5% {background-color: #AC4A88;}
+    75% {background-color: #C1357C;}
+    87% {background-color: #C60270;}
+}
+
