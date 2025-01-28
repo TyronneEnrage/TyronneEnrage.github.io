@@ -10,8 +10,9 @@
     visibility: hidden;
     position: absolute;
     z-index: 1;
-    right: 105%;
-    top: -5px;
+    top: 105%;
+    left: 50%;
+    margin-left: -60px;
 
     width: 150px;
     background-color: black;
