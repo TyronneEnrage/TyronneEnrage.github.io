@@ -1,0 +1,27 @@
+#toolTip{
+    transform: translate(150px, 50px);
+    /*Important bits*/
+    position: relative;
+    display: inline-block;
+}
+
+#toolTip .toolText{
+    /*Important bits*/
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+    top: -5px;
+
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#toolTip:hover .toolText{
+    visibility: visible;
+}
+

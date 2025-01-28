@@ -103,3 +103,17 @@
     87% {background-color: #C60270;}
 }
 
+
+#testing{
+    width: 150px;
+    height: 150px;
+    transform: translate( 350px, 250px);
+    background-image: linear-gradient(to bottom right, #0038A8, #C60270);
+    animation-name: testingBox;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes testingBox {
+    
+}
