@@ -10,7 +10,7 @@
     visibility: hidden;
     position: absolute;
     z-index: 1;
-    top: 105%;
+    bottom: 105%;
     left: 50%;
     margin-left: -60px;
 
@@ -20,6 +20,17 @@
     text-align: center;
     padding: 5px;
     border-radius: 6px;
+}
+
+#toolTip .toolText::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
 }
 
 #toolTip:hover .toolText{
